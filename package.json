@@ -1,0 +1,27 @@
+{
+  "name": "tough-cookie-mem-store",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "evlon@qq.com",
+  "license": "MIT",
+  "exports": {
+    "import": "./index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evlon/tough-cookie-mem-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evlon/tough-cookie-mem-store/issues"
+  },
+  "scripts": {
+    "test": "standard",
+    "fix": "standard --fix"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "tough-cookie": "^4.0.0"
+  }
+}
