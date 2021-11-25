@@ -3,7 +3,7 @@ a memory store that can set init cookie for tough-cookie
 
 
 ## useage
-`
+```
 import nodefetch from 'node-fetch'
 import nodefetchWrap from 'fetch-cookie/node-fetch.js' // use this to get cookie when redirct occus.
 import cookiefetch from 'fetch-cookie'
@@ -35,4 +35,4 @@ async getCookieStoreJsonObject(){
  // after do fetch 
  let jsonCookieNew = await getCookieStoreJsonObject();
  
-`
+```
